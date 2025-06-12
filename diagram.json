@@ -38,7 +38,8 @@
       "top": 323.2,
       "left": 197.6,
       "attrs": { "pins": "i2c" }
-    }
+    },
+    { "type": "wokwi-ir-remote", "id": "remote1", "top": -19.2, "left": 480, "attrs": {} }
   ],
   "connections": [
     [ "esp:TX", "$serialMonitor:RX", "", [] ],
